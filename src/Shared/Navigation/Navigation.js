@@ -12,7 +12,7 @@ const Navigation = () => {
     const mechanicIcon = <FontAwesomeIcon icon={faCogs} />
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar style={{ backgroundColor: 'black' }} position="static">
+            <AppBar style={{ backgroundColor: '#505B80' }} position="static">
                 <Toolbar>
                     <IconButton
                         size="large"
@@ -22,10 +22,10 @@ const Navigation = () => {
                         sx={{ mr: 2 }}
                     >
                     </IconButton>
-                    <Typography variant="h3" component="div" sx={{ flexGrow: 1 }} style={{ color: '#FEC619', textAlign: 'left' }}>
+                    <Typography variant="h3" component="div" sx={{ flexGrow: 1 }} style={{ color: '#FFA45C', textAlign: 'left' }}>
                         {mechanicIcon} AutoMed
                     </Typography>
-                    <Button style={{ color: '#FEC619' }} color="inherit">Login</Button>
+                    <Button style={{ color: '#FFA45C' }} color="inherit">Login</Button>
                 </Toolbar>
             </AppBar>
         </Box>

@@ -1,0 +1,27 @@
+[
+    {
+        "img": "https://i.ibb.co/gR46xRM/mechanic-1.jpg",
+        "name": "Steve Roger",
+        "expertize": "Engine Expert"
+    },
+    {
+        "img": "https://i.ibb.co/t2dLKMr/mechanic-2.jpg",
+        "name": "Jack Reacher",
+        "expertize": "Polish Expert"
+    },
+    {
+        "img": "https://i.ibb.co/RP6n5mv/mechanic-3.jpg",
+        "name": "Sam Cafling",
+        "expertize": "Coloring Expert"
+    },
+    {
+        "img": "https://i.ibb.co/173DWrg/mechanic-4.jpg",
+        "name": "Tony Blink",
+        "expertize": "Alrounder Expert"
+    },
+    {
+        "img": "https://i.ibb.co/s5LFgFM/mechanic-5.jpg",
+        "name": "Tommy Cooper",
+        "expertize": "Alrounder Expert"
+    }
+]

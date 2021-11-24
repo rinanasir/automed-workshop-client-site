@@ -1,8 +1,9 @@
 import React from 'react';
-import { Container, Grid, Typography } from '@mui/material';
-import banner from '../../../images/headerBanner.jpg';
-import bannerbg from '../../../images/banner/banner1.jpg';
+import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCogs } from '@fortawesome/free-solid-svg-icons';
+import bannerbg from '../../../images/banner/banner1.jpg';
 
 const bannerHeader = {
     background: `url(${bannerbg})`,
@@ -11,14 +12,15 @@ const bannerHeader = {
 }
 
 const BannerHome = () => {
+    const mechanicIcon = <FontAwesomeIcon icon={faCogs} />
     return (
         <Box style={bannerHeader} sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6} style={{ lineHeight: 10 }}>
-                    <Typography variant="h2" style={{ textAlign: 'right', color: '#FEC619', fontWeight: 'bold' }} sx={{ mt: 15 }}>
-                        Automed
+                    <Typography variant="h2" style={{ textAlign: 'right', color: '#FFA45C', fontWeight: 'bold' }} sx={{ mt: 15, pr: 5 }}>
+                        {mechanicIcon} Automed
                     </Typography>
-                    <Typography style={{ textAlign: 'right', color: 'white', fontWeight: 'bold' }} variant="h5">
+                    <Typography style={{ textAlign: 'right', color: 'white', fontWeight: 'bold' }} sx={{ pr: 5 }} variant="h5">
                         Car repare and services. We fix it right.
                     </Typography>
                 </Grid>

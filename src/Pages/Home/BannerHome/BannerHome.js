@@ -17,10 +17,10 @@ const BannerHome = () => {
         <Box style={bannerHeader} sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6} style={{ lineHeight: 10 }}>
-                    <Typography variant="h2" style={{ textAlign: 'right', color: '#FFA45C', fontWeight: 'bold' }} sx={{ mt: 15, pr: 5 }}>
+                    <Typography className="animate__animated animate__slideInDown" variant="h2" style={{ textAlign: 'right', color: '#FFA45C', fontWeight: 'bold' }} sx={{ mt: 15, pr: 5 }}>
                         {mechanicIcon} Automed
                     </Typography>
-                    <Typography style={{ textAlign: 'right', color: 'white', fontWeight: 'bold' }} sx={{ pr: 5 }} variant="h5">
+                    <Typography className="animate__animated animate__slideInDown" style={{ textAlign: 'right', color: 'white', fontWeight: 'bold' }} sx={{ pr: 5 }} variant="h5">
                         Car repare and services. We fix it right.
                     </Typography>
                 </Grid>

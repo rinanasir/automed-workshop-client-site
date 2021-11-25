@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../../../Shared/Navigation/Navigation';
 import BannerHome from '../BannerHome/BannerHome';
-import Mechanics from '../Mechanics/Mechanics';
+import MechanicsHome from '../MechanicsHome/MechanicsHome';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -9,8 +9,8 @@ const Home = () => {
         <div>
             <Navigation />
             <BannerHome />
+            <MechanicsHome></MechanicsHome>
             <Services />
-            <Mechanics></Mechanics>
         </div>
     );
 };

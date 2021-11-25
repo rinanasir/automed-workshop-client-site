@@ -7,6 +7,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCogs } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     const mechanicIcon = <FontAwesomeIcon icon={faCogs} />
@@ -25,6 +26,9 @@ const Navigation = () => {
                     <Typography variant="h3" component="div" sx={{ flexGrow: 1 }} style={{ color: '#FFA45C', textAlign: 'left' }}>
                         {mechanicIcon} AutoMed
                     </Typography>
+                    <Link style={{ textDecoration: 'none', color: '#FFA45C' }} to="/appointment">
+                        <Button style={{ color: '#FFA45C' }} color="inherit">Appointment</Button>
+                    </Link>
                     <Button style={{ color: '#FFA45C' }} color="inherit">Login</Button>
                 </Toolbar>
             </AppBar>

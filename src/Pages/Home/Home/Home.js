@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../../../Shared/Navigation/Navigation';
+import AppointmentBanner from '../AppointmentBanner/AppointmentBanner';
 import BannerHome from '../BannerHome/BannerHome';
 import MechanicsHome from '../MechanicsHome/MechanicsHome';
 import Services from '../Services/Services';
@@ -9,8 +10,9 @@ const Home = () => {
         <div>
             <Navigation />
             <BannerHome />
-            <MechanicsHome></MechanicsHome>
+            <MechanicsHome />
             <Services />
+            <AppointmentBanner />
         </div>
     );
 };

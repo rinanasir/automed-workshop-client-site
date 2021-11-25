@@ -5,34 +5,6 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-/* const mechanics = [
-    {
-        img: "https://i.ibb.co/gR46xRM/mechanic-1.jpg",
-        name: "Steve Roger",
-        expertize: "Engine Expert"
-    },
-    {
-        img: "https://i.ibb.co/t2dLKMr/mechanic-2.jpg",
-        name: "",
-        expertize: "Polish Expert"
-    },
-    {
-        img: "https://i.ibb.co/RP6n5mv/mechanic-3.jpg",
-        name: "",
-        expertize: "Coloring Expert"
-    },
-    {
-        img: "https://i.ibb.co/173DWrg/mechanic-4.jpg",
-        name: "",
-        expertize: "Alrounder Expert"
-    },
-    {
-        img: "https://i.ibb.co/s5LFgFM/mechanic-5.jpg",
-        name: "",
-        expertize: "Alrounder Expert"
-    }
-] */
-
 const MechanicsHome = () => {
     //Owl Carousel Settings
     const options = {
